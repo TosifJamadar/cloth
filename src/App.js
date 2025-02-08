@@ -7,7 +7,7 @@ import { WEBSITE_NAME,CARD_TITLE, PRODUCT_PRICE,MAIN_IMG,SUB_IMG,SUB_IMG1,SUB_IM
 export default function App() {
   return (
     <div >
-      <h1 className='text-5xl font-bold flex justify-center my-2'>{WEBSITE_NAME}</h1>
+      <h1 className='text-5xl font-bold flex justify-center my-2 '>{WEBSITE_NAME}</h1>
 
       <div className='flex justify-end'>
         <button className='Button'><Filter className='flex inline-block mx-2 w-4 h-4' />All</button>
@@ -16,7 +16,7 @@ export default function App() {
         <button className='Button'><ShoppingCart className='flex inline-block mx-2 w-4 h-4'/>0</button>
       </div>
 
-      <div className='flex justify-center bg-gray-200 w-[1000px] h-[550px] mx-10 my-10 rounded-lg '>
+      <div className='flex justify-center bg-gray-200 w-[1000px] h-[550px] mx-10 my-10 rounded-lg border'>
         {/* Card */}
         <div>
           <img src={MAIN_IMG} alt='img'  className='w-[300px] h-[450px] py-5 mx-4'/>
